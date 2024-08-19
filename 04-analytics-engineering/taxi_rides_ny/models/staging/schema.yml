@@ -5,12 +5,12 @@ sources:
     database: dtc-de-course-424101
      # For postgres:
       #database: production
-    schema: ny_taxi
+    schema: ny_tl_data
 
       # loaded_at_field: record_loaded_at
     tables:
-      - name: green_tripdata_2022_non_partitoned
-      - name: temp_yellow_tripdata_casted
+      - name: green_tripdata
+      - name: yellow_tripdata
          # freshness:
            # error_after: {count: 6, period: hour}
 
